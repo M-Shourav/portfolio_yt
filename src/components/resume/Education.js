@@ -11,7 +11,9 @@ const Education = () => {
       <div>
         <div className="py-10 font-titleFont">
           <p className="text-sm text-designColor tracking-[4px]">2018-2024</p>
-          <h2 className="text-4xl font-semibold">Education Quality</h2>
+          <h2 className="text-3xl lg:text-4xl font-semibold">
+            Education Quality
+          </h2>
         </div>
         <div className="mt-10 w-full h-[700px] border-l-[6px] border-l-black flex flex-col gap-10">
           <ResumeCard
@@ -33,7 +35,9 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">
             06/2024-09/2024
           </p>
-          <h2 className="text-4xl font-semibold">Industrial Training</h2>
+          <h2 className="text-3xl lg:text-4xl  font-semibold">
+            Industrial Training
+          </h2>
         </div>
         <div className="mt-10 w-full h-[350px] border-l-[6px] border-l-black flex flex-col gap-10">
           <ResumeCard

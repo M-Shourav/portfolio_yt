@@ -25,11 +25,11 @@ export const navLinks = [
     title: "Resume",
     link: "resume",
   },
-  {
-    _id: 1005,
-    title: "Testimonials",
-    link: "testimonials",
-  },
+  // {
+  //   _id: 1005,
+  //   title: "Testimonials",
+  //   link: "testimonials",
+  // },
   {
     _id: 1006,
     title: "Contacts",
@@ -40,22 +40,22 @@ export const navLinks = [
 export const FeaturesDes = [
   {
     title: "Bussiness Stratagy",
-    des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus",
+    des: `Business strategist skilled in developing innovative plans to drive growth, optimize operations, and boost profits.`,
     icons: <IoMdMenu />,
   },
   {
     title: "Web Development",
-    des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus",
+    des: `MERN stack developer focused on building user-centric, efficient apps with MongoDB, Express, React, and Node.js.`,
     icons: <CiGlobe />,
   },
   {
     title: "UX Design",
-    des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus",
+    des: `UX designer focused on creating seamless, user-friendly interfaces to enhance user satisfaction and engagement.`,
     icons: <SiAntdesign />,
   },
   {
     title: "SEO Optimization",
-    des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus",
+    des: `SEO optimization specialist enhancing website visibility and driving organic traffic through strategic keyword research and on-page tactics.`,
     icons: <SiProgress />,
   },
 ];

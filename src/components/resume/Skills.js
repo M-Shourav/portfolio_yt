@@ -1,5 +1,4 @@
 import React from "react";
-import ResumeCard from "./ResumeCard";
 import { motion } from "framer-motion";
 const Skills = () => {
   return (
@@ -92,7 +91,9 @@ const Skills = () => {
       <div className="w-full sm:w-1/2">
         <div className="py-10 font-titleFont">
           <p className="text-sm text-designColor tracking-[4px]">Fetures</p>
-          <h2 className="text-4xl font-semibold">Development Skill</h2>
+          <h2 className="text-3xl lg:text-4xl font-semibold">
+            Development Skill
+          </h2>
         </div>
         <div className="mt-10 w-full flex flex-col gap-6">
           <div className=" overflow-x-hidden">

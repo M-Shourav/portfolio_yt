@@ -5,6 +5,7 @@ import Features from "./components/features/Features";
 import Projects from "./components/project/Projects";
 import Resume from "./components/resume/Resume";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 function App() {
   return (
     <div className="w-full min-h-screen bg-bodyColor text-lightText">
@@ -14,6 +15,7 @@ function App() {
       <Projects />
       <Resume />
       <Contact />
+      <Footer />
     </div>
   );
 }
