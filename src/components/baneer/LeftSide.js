@@ -39,32 +39,52 @@ const LeftSide = () => {
         <div>
           <h2 className="text-base uppercase font-normal">Find me in </h2>
           <div className="flex items-center gap-3 py-2">
-            <span className="bannerIcon">
+            <a
+              href="https://www.facebook.com/profile.php?id=100027878711748"
+              target="blank"
+              className="bannerIcon"
+            >
               <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
+            </a>
+            <a
+              href="https://x.com/MasumAh68543"
+              target="blank"
+              className="bannerIcon"
+            >
               <RiTwitterXFill />
-            </span>
-            <span className="bannerIcon">
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mdmasumbillah12/"
+              target="blank"
+              className="bannerIcon"
+            >
               <FaLinkedinIn />
-            </span>
+            </a>
           </div>
         </div>
         <div>
           <h2 className="text-base uppercase font-normal">best skilled on</h2>
           <div className="flex items-center gap-3 py-2">
-            <span className="bannerIcon">
+            <a href="https://react.dev/" target="blank" className="bannerIcon">
               <FaReact />
-            </span>
-            <span className="bannerIcon">
+            </a>
+            <a href="https://nextjs.org/" target="blank" className="bannerIcon">
               <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
+            </a>
+            <a
+              href="https://tailwindcss.com/"
+              target="blank"
+              className="bannerIcon"
+            >
               <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
+            </a>
+            <a
+              href="https://www.figma.com/"
+              target="blank"
+              className="bannerIcon"
+            >
               <FaFigma />
-            </span>
+            </a>
           </div>
         </div>
       </div>
