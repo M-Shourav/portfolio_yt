@@ -100,6 +100,7 @@ const ContactRight = () => {
                 value={formData.Name}
                 onChange={handleChange}
                 className="contactInput"
+                autoComplete="name"
                 required
               />
             </div>
@@ -114,6 +115,7 @@ const ContactRight = () => {
                 value={formData.Phone}
                 onChange={handleChange}
                 className="contactInput"
+                autoComplete="phone"
               />
             </div>
           </div>
@@ -128,6 +130,7 @@ const ContactRight = () => {
               value={formData.Email}
               onChange={handleChange}
               className="contactInput"
+              autoComplete="email"
               required
             />
           </div>
@@ -142,6 +145,7 @@ const ContactRight = () => {
               value={formData.Address}
               onChange={handleChange}
               className="contactInput"
+              autoComplete="address"
             />
           </div>
           <div className="flex flex-col gap-4">
