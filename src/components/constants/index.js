@@ -89,7 +89,7 @@ export const projectArray = [
           experience.`,
     icons_1: <FaGithub />,
     icons_2: <CiGlobe />,
-    link: "https://amazon-clone-pi-olive-24.vercel.app/",
+    link: "https://amazon-clone-cc-2o.vercel.app/",
     gitlinks: "https://github.com/M-Shourav/amazon_cloneyt",
   },
   {
