@@ -19,8 +19,8 @@ const Features = () => {
           >
             <div className="h-72 overflow-y-hidden">
               <div
-                className="flex h-full flex-col gap-6 translate-y-16 sm:translate-y-14 
-              hover:translate-y-0 transition-transform duration-500"
+                className="flex h-full flex-col gap-6 translate-y-16 
+              group-hover:translate-y-0 transition-transform duration-500"
               >
                 <div>
                   <span className="text-5xl text-designColor">

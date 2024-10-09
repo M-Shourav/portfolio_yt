@@ -6,7 +6,7 @@ import Container from "../Container";
 import MobileNavigation from "../mobilenavigation/MobileNavigation";
 const Header = () => {
   return (
-    <div className="w-full h-24 py-2 bg-bodyColor text-lightText border-b-[1px] border-b-gray-600 font-titleFont lg:sticky lg:top-0 lg:z-50">
+    <div className="w-full h-20 py-2 bg-bodyColor text-lightText border-b-[1px] border-b-gray-600 font-titleFont lg:sticky lg:top-0 lg:z-50">
       <Container className=" flex items-center justify-between gap-7">
         <div className=" flex items-center gap-1">
           <img
@@ -20,7 +20,7 @@ const Header = () => {
           <ul className="flex items-center gap-7">
             {navLinks?.map((item) => (
               <li
-                className="text-sm font-semibold cursor-pointer hover:text-designColor duration-300"
+                className="text-base font-semibold cursor-pointer hover:text-designColor duration-300"
                 key={item?._id}
               >
                 <Link
