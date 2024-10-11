@@ -67,7 +67,7 @@ const Contact = () => {
                   <RiTwitterXFill />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/mdmasumbillah12/"
+                  href="https://www.linkedin.com/in/masumdev24/"
                   target="blank"
                   className="bannerIcon"
                 >
