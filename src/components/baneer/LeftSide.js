@@ -54,9 +54,9 @@ const LeftSide = () => {
             >
               <RiTwitterXFill />
             </a>
-          <Link to={'www.linkedin.com/in/masumdev24'} className="bannerIcon">
+          <a href="https://www.linkedin.com/in/masumdev24/" target="blank" className="bannerIcon">
           <FaLinkedinIn/>
-          </Link>
+          </a>
           </div>
         </div>
         <div>
