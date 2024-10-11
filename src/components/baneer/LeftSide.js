@@ -53,13 +53,7 @@ const LeftSide = () => {
             >
               <RiTwitterXFill />
             </a>
-            <a
-              href="www.linkedin.com/in/masumdev24"
-              target="blank"
-              className="bannerIcon"
-            >
-              <FaLinkedinIn />
-            </a>
+          
           </div>
         </div>
         <div>
