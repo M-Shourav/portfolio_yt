@@ -3,6 +3,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaFacebookF, FaFigma, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { Link } from "react-scroll";
 const LeftSide = () => {
   const [text] = useTypewriter({
     words: ["Professional coder.", "Front-end developer.", "UI Designer."],
@@ -53,7 +54,9 @@ const LeftSide = () => {
             >
               <RiTwitterXFill />
             </a>
-          
+          <Link to={'www.linkedin.com/in/masumdev24'} className="bannerIcon">
+          <FaLinkedinIn/>
+          </Link>
           </div>
         </div>
         <div>
