@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../Container";
 import Title from "../../layout/Title";
 import { contactImg } from "../../assets";
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram } from "react-icons/fa6";
 import { RiTwitterXFill } from "react-icons/ri";
 import ContactRight from "./ContactRight";
 
@@ -67,11 +67,11 @@ const Contact = () => {
                   <RiTwitterXFill />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/masumdev24/"
+                  href="https://www.instagram.com/masum_shourav/"
                   target="blank"
                   className="bannerIcon"
                 >
-                  <FaLinkedinIn />
+                  <FaInstagram />
                 </a>
               </div>
             </div>

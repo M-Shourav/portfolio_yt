@@ -1,9 +1,8 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaFigma, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaFacebookF, FaFigma, FaInstagram, FaReact } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
-import { Link } from "react-scroll";
 const LeftSide = () => {
   const [text] = useTypewriter({
     words: ["Professional coder.", "Front-end developer.", "UI Designer."],
@@ -18,7 +17,7 @@ const LeftSide = () => {
         <h4 className="text-lg font-normal tracking-wide">
           WELCOME TO MY WORLD
         </h4>
-        <h1 className="text-3xl sm:text-5xl font-bold flex items-center gap-1">
+        <h1 className="text-2xl sm:text-5xl font-bold flex items-center gap-1">
           Hi,I'm <span className="text-designColor font-bold">Masum Ahmed</span>
         </h1>
         <h2 className="text-2xl sm:text-4xl font-bold">
@@ -54,8 +53,8 @@ const LeftSide = () => {
             >
               <RiTwitterXFill />
             </a>
-          <a href="https://www.linkedin.com/in/masumdev24/" target="blank" className="bannerIcon">
-          <FaLinkedinIn/>
+          <a href="https://www.instagram.com/masum_shourav/" target="blank" className="bannerIcon">
+          <FaInstagram/>
           </a>
           </div>
         </div>
