@@ -2,7 +2,13 @@ import { IoMdMenu } from "react-icons/io";
 import { CiGlobe } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa6";
 import { SiAntdesign, SiProgress } from "react-icons/si";
-import { project_1, project_2, project_3, project_4 } from "../../assets/index";
+import {
+  project_1,
+  project_2,
+  project_3,
+  project_4,
+  project_5,
+} from "../../assets/index";
 
 export const navLinks = [
   {
@@ -39,7 +45,7 @@ export const navLinks = [
 
 export const FeaturesDes = [
   {
-    title: "Bussiness Stratagy",
+    title: "Business Stratagy",
     des: `Business strategist skilled in developing innovative plans to drive growth, optimize operations, and boost profits.`,
     icons: <IoMdMenu />,
   },
@@ -120,5 +126,21 @@ export const projectArray = [
     icons_2: <CiGlobe />,
     link: "https://todolist-j149.vercel.app/",
     gitlinks: "https://github.com/M-Shourav/todolist",
+  },
+  {
+    _id: 504,
+    images: project_5,
+    title: "Constructify",
+    des: `This project is a modern and responsive website for 
+    a construction company, showcasing its services and mission. 
+    It features a clean navigation menu, a striking hero section
+    with a bold tagline, and call-to-action buttons to engage 
+    visitors. The design highlights professionalism and aims to 
+    attract clients seeking reliable and high-quality construction
+    solutions.`,
+    icons_1: <FaGithub />,
+    icons_2: <CiGlobe />,
+    link: "https://constructify-masum.vercel.app/",
+    gitlinks: "https://github.com/M-Shourav/constructify.git",
   },
 ];
